@@ -3,9 +3,9 @@ name = "shoko_screen_timer"
 version = "0.1.0"
 edition = "2024"
 authors = ["shokoyoru"]
-description = "A simple screen timer with json output for status bar"
+description = "A screen timer with json output for status bar"
 license = "MIT"
-repository = ""
+repository = "https://codeberg.org/shokoieiri/shoko-screen-timer"
 keywords = ["timer", "status-bar", "json", "waybar"]
 
 [lib]
