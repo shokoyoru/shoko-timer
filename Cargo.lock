@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "shoko_screen_timer"
+name = "shoko-screen-timer"
 version = "0.1.0"

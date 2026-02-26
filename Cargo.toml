@@ -1,5 +1,5 @@
 [package]
-name = "shoko_screen_timer"
+name = "shoko-screen-timer"
 version = "0.1.0"
 edition = "2024"
 authors = ["shokoyoru"]
