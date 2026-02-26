@@ -1,0 +1,15 @@
+[package]
+name = "shoko_screen_timer"
+version = "0.1.0"
+edition = "2024"
+authors = ["shokoyoru"]
+description = "A simple screen timer with json output for status bar"
+license = "MIT"
+repository = ""
+keywords = ["timer", "status-bar", "json", "waybar"]
+
+[lib]
+name = "shoko_screen_timer"
+path = "src/lib.rs"
+
+[dependencies]

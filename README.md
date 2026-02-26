@@ -1,0 +1,10 @@
+# Screen Timer
+A simple screen timer with json output for status bars (like waybar).
+
+## Features
+- Automatically handles system suspend or lid close.
+- Uses '/dev/shm' for writing and auto-cleanup on reboot
+- Outputs JSON format for easy GUI integration.
+
+## Usage
+Run the binary and point your status bar to JSON output.
