@@ -1,6 +1,6 @@
 [package]
 name = "shoko-timer"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2024"
 authors = ["shokoyoru"]
 description = "A screen timer with json output for status bar"
