@@ -8,3 +8,6 @@ A simple screen timer with json output for status bars (like waybar).
 
 ## Usage
 Run the binary and point your status bar to JSON output.
+
+## License
+Do whatever you want.
