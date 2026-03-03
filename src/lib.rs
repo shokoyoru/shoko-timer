@@ -4,7 +4,7 @@ use std::time::{Duration, SystemTime, UNIX_EPOCH};
 pub fn get_active() -> u128 {
     SystemTime::now().duration_since(UNIX_EPOCH).map(|d| d.as_millis()).unwrap_or(0)
 }
-
+///output is  {"text": "00:00:00.000", "tooltip": "Screen Time" }
 pub fn format_screen_time(active_millis: u64) -> String {
     let active_seconds = active_millis / 1000;
     let hours = active_seconds / 3600;
