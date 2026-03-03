@@ -2,7 +2,7 @@ use std::{fs, thread};
 use std::time::{Duration, SystemTime, UNIX_EPOCH};
 
 pub fn get_active() -> u128 {
-    SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_millis()
+    SystemTime::now().duration_since(UNIX_EPOCH).map(|d| d.as_millis()).unwrap_or(0)
 }
 
 pub fn format_screen_time(active_millis: u64) -> String {
