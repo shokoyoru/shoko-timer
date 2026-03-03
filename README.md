@@ -4,7 +4,7 @@ A simple screen timer with json output for status bars (like waybar).
 ## Features
 - Automatically handles system suspend or lid close.
 - Doesn't count sleep time.
-- Uses '/dev/shm' for writing and auto-cleanup on reboot
+- Uses '/dev/shm' for writing and auto-cleanup on reboot for linux
 - Outputs JSON format for easy GUI integration.
 
 ## Usage
