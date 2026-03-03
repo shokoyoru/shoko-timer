@@ -46,7 +46,7 @@ pub fn active_timer(callback: fn(u64)) {
             let _ = fs::write(path, active_start.to_string());
         }
         let active_millis = active - active_start;
-        callback(active_millis.try_into().unwrap());
+        callback(active_millis.try_into().unwrap_or(0));
         thread::sleep(Duration::from_millis(8));
     }
 
