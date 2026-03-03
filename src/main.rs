@@ -6,6 +6,6 @@ fn main() {
         print!(
             "\r{}", format_screen_time(active_millis)
         );
-        io::stdout().flush().unwrap();
+        io::stdout().flush().ok();
     });
 }
