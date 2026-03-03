@@ -10,7 +10,7 @@ jobs:
       - name: test
         uses: actions/checkout@v4
 
-      - name: rust test
+      - name: run test
         run: |
           cargo check
           cargo test
