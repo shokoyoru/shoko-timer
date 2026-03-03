@@ -47,7 +47,7 @@ pub fn active_timer(callback: fn(u64)) {
         }
         let active_millis = active - active_start;
         callback(active_millis.try_into().unwrap());
-        thread::sleep(Duration::from_millis(16));
+        thread::sleep(Duration::from_millis(8));
     }
 
 }
